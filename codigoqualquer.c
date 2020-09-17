@@ -103,3 +103,7 @@ void reinicializarLista(LISTA* l){
     l->cabeca->prox = l->cabeca;
 }
 
+int main(){
+    LISTA l;
+    inicializaLista(&l);
+}
