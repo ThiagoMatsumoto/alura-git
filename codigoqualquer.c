@@ -104,5 +104,9 @@ void reinicializarLista(LISTA* l){
 }
 
 int main(){
-    
+    LISTA l;
+    inicializaLista(&l);
+    REGISTRO reg;
+    reg.chave = 3;
+    inserirElemListaOrd(&l, reg);
 }
