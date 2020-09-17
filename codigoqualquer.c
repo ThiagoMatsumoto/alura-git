@@ -103,10 +103,3 @@ void reinicializarLista(LISTA* l){
     l->cabeca->prox = l->cabeca;
 }
 
-int main(){
-    LISTA l;
-    inicializaLista(&l);
-    REGISTRO reg;
-    reg.chave = 3;
-    inserirElemListaOrd(&l, reg);
-}
