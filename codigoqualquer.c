@@ -106,6 +106,8 @@ void reinicializarLista(LISTA* l){
 
 void funcaoQualquer(LISTA* l){
     /*função só para ter uma alteração para commitar*/
+
+    /*uma alteração qualquer para usar o rebase*/
 }
 
 int main(){
