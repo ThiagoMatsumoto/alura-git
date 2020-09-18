@@ -108,7 +108,9 @@ void outraFuncaoQualquer(LISTA* l){
     outra função qualquer mas que está numa branch
     separada da master e do usuário thiago
     */
+   /*alteração qualquer 2*/
 }
+
 
 int main(){
     LISTA l;
