@@ -57,7 +57,7 @@ ELEMENTO* buscarElemComSentinela(LISTA* l, TIPOCHAVE ch){
     return NULL;
 }
 
-ELEMENTO* buscaAuxiliar(LISTA* l, TIPOCHAVE ch, ELEMENTO** ant){
+ELEMENTO* buscaAuxiliarLista(LISTA* l, TIPOCHAVE ch, ELEMENTO** ant){
     *ant = l->cabeca;
     ELEMENTO* atual = l->cabeca->prox;
     l->cabeca->prox = ch;
