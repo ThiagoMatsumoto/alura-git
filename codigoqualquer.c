@@ -104,6 +104,7 @@ void reinicializarLista(LISTA* l){
     l->cabeca->prox = l->cabeca;
 }
 
+<<<<<<< HEAD
 void funcaoQualquer(LISTA* l){
     /*função só para ter uma alteração para commitar*/
 
@@ -112,6 +113,17 @@ void funcaoQualquer(LISTA* l){
     /*alteração*/
 }
 
+=======
+void outraFuncaoQualquer(LISTA* l){
+    /*
+    outra função qualquer mas que está numa branch
+    separada da master e do usuário thiago
+    */
+   /*alteração qualquer 2*/
+}
+
+
+>>>>>>> outroRamo
 int main(){
     LISTA l;
     inicializaLista(&l);
