@@ -57,7 +57,7 @@ ELEMENTO* buscarElemComSentinela(LISTA* l, TIPOCHAVE ch){
     return NULL;
 }
 
-ELEMENTO* buscaAuxiliarLista(LISTA* l, TIPOCHAVE ch, ELEMENTO** ant){
+ELEMENTO* buscaAuxiliarDaLista(LISTA* l, TIPOCHAVE ch, ELEMENTO** ant){
     *ant = l->cabeca;
     ELEMENTO* atual = l->cabeca->prox;
     l->cabeca->prox = ch;
@@ -104,12 +104,24 @@ void reinicializarLista(LISTA* l){
     l->cabeca->prox = l->cabeca;
 }
 
+<<<<<<< HEAD
 void funcaoQualquer(LISTA* l){
     /*função só para ter uma alteração para commitar*/
 
     /*uma alteração qualquer para usar o rebase*/
 }
 
+=======
+void outraFuncaoQualquer(LISTA* l){
+    /*
+    outra função qualquer mas que está numa branch
+    separada da master e do usuário thiago
+    */
+   /*alteração qualquer 2*/
+}
+
+
+>>>>>>> outroRamo
 int main(){
     LISTA l;
     inicializaLista(&l);
