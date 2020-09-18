@@ -103,6 +103,13 @@ void reinicializarLista(LISTA* l){
     l->cabeca->prox = l->cabeca;
 }
 
+void outraFuncaoQualquer(LISTA* l){
+    /*
+    outra função qualquer mas que está numa branch
+    separada da master e do usuário thiago
+    */
+}
+
 int main(){
     LISTA l;
     inicializaLista(&l);
