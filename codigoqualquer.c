@@ -69,6 +69,7 @@ ELEMENTO* buscaAuxiliar(LISTA* l, TIPOCHAVE ch, ELEMENTO** ant){
     return NULL;
 }
 
+
 bool inserirElemListaOrd(LISTA* l, REGISTRO reg){
     ELEMENTO* ant;
     ELEMENTO* atual;
@@ -101,6 +102,10 @@ void reinicializarLista(LISTA* l){
         free(apagar);
     }
     l->cabeca->prox = l->cabeca;
+}
+
+void funcaoQualquer(LISTA* l){
+    /*função só para ter uma alteração para commitar*/
 }
 
 int main(){
