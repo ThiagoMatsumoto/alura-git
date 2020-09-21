@@ -120,6 +120,10 @@ void outraFuncaoQualquer(LISTA* l){
    /*alteração qualquer 2*/
 }
 
+void funcaoParaExcluir(){
+    
+}
+
 
 int main(){
     LISTA l;
